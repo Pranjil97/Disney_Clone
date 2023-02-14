@@ -6,7 +6,7 @@ import scale6 from '../assets/images/scale6.jpg'
 const HomeScrollImg = () => {
   return (
     <div>
-      <div className='homescrollimg'>
+      <div className='homescrollimg cursor-pointer'>
         <img className='imgscr1' src={bad4} alt='bad4' />
         <img className='imgscr1' src={bad5} alt='bad5' />
         <img className='imgscr1' src={scale6} alt='scale6' />

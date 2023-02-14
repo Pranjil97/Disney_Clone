@@ -10,7 +10,7 @@ const CategoryIcons = () => {
   return (
     <div className='flex justify-center mt-[100px]'>
       {catIconsImg.map((items,key) => {
-        return <img key={key} className='rounded-xl bg-[#090b13] h-[160px] ml-[60px] border-[2px] border-gray-700' src={items} alt="img"></img>
+        return <img key={key} className='rounded-xl bg-[#090b13] h-[160px] ml-[60px] border-[2px] border-gray-700 cursor-pointer' src={items} alt="img"></img>
       })}
     </div>
   )
